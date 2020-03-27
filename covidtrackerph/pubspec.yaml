@@ -1,0 +1,51 @@
+name: covidtrackerph
+description: PH Based Covid Tracker - Dark
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  http: ^0.12.0+4  
+  html: ^0.14.0+3
+  flutter_staggered_grid_view: ^0.3.0
+  intl: ^0.16.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+
+
+
+  fonts:
+    - family: Montserrat-Regular
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+
+    - family: Montserrat-Light
+      fonts:
+        - asset: assets/fonts/Montserrat-Light.ttf
+
+    - family: Montserrat-Bold
+      fonts:
+        - asset: assets/fonts/Montserrat-Bold.ttf
+
+    - family: FredokaOne
+      fonts:
+        - asset: assets/fonts/FredokaOne-Regular.ttf
