@@ -554,6 +554,13 @@ Material chartsInfo(
                   fontSize: txtTitleFontSize,
                 ),
               ),
+               Text(
+                "*note sometimes data is not available(possible reason updating)",
+                style: TextStyle(
+                  color: Colors.red,
+                  fontSize: 14,
+                ),
+              ),
               SizedBox(
                 height: 5,
               ),
