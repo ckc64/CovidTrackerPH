@@ -558,7 +558,7 @@ Material chartsInfo(
                 "*note sometimes data is not available(possible reason updating)",
                 style: TextStyle(
                   color: Colors.red,
-                  fontSize: 14,
+                  fontSize: 10,
                 ),
               ),
               SizedBox(
