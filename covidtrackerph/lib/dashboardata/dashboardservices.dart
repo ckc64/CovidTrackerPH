@@ -1,7 +1,8 @@
-import 'package:covidtrackerph/dashboardata/globalcases.dart';
-import 'package:covidtrackerph/dashboardata/phcases.dart';
+import 'package:covidtrackerph/dashboardata/classfiles/globalcases.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
+
+import 'classfiles/phcases.dart';
 
 //https://corona.lmao.ninja/countries/Philippines
 //https://corona.lmao.ninja/all
