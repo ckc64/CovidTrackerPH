@@ -17,8 +17,10 @@ class MyApp extends StatelessWidget {
     accentColor: Colors.grey,
     fontFamily: 'Montserrat-Regular'
   ),
-     //home: TestingPages(),
-      home: SplashScreenFull(),
+     home: TestingPage(),
+      //home: SplashScreenFull(),
     );
   }
 }
+
+
